@@ -2,7 +2,7 @@
 HTML e CSS - Segunda Página Cabeçalho, Footer e Variaveis CSS (Continuação da Primeira Página)
 
   - Continuação da página anterior com flexbox
-  - Alterados os botôes
+  - Alterados os botões
   - Adicionado o cabeçalho
   - Adicionado o rodapé (footer)
   - Adicionado uma segunda página: Sobre min
