@@ -6,7 +6,7 @@ HTML e CSS - Segunda Página Cabeçalho, Footer e Variaveis CSS (Continuação d
   - Adicionado o cabeçalho
   - Adicionado o rodapé (footer)
   - Adicionado uma segunda página: Sobre min
-  - Adicionado (como exercício) uma terceira página: Currílo
+  - Adicionado (como exercício) uma terceira página: Curriculo
   - Adicionado uma página a mais por vontade própria
   - Concluido dia 27/06/2024
   - NÂO QUIS MUDAR AS CORES (AINDA)
