@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{ /*USANDO PARA FIXAR INFORMAÇÕES DAS VARIAVEIS SENSÍVEIS DO PROGRAMA*/
+    --cor-de-fundo: #000000;
+    --cor-do-texto: #F6F6F6;
+    --cor-destaques: #22D4FD;
+    --cor-hover-botao: #494949;
+    --cor-hover-link:#97ccd8;
+
+    --fonte-principal: "Krona One", sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-do-texto);
+}
+
+.cabecalho{
+    display: flex;
+    background-color: var(--cor-de-fundo);
+    margin: 2% 0% 0% 15%;                                   
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+}
+
+.cabecalho__menu__link{
+    color: var(--cor-destaques);
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--cor-hover-link);
+    text-decoration: none;
+}
+
+
+.titulo-destaque{                  
+    color: var(--cor-destaques);
+}
+
+.apresentacao{
+    padding: 5% 15%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{            
+    width: 615px;
+    display: flex;
+    flex-direction: column;         
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__link{                         /*Links + imagens + espaços + botões + bordas + fontes*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;      
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid var(--cor-destaques);
+    font-size: 24px;
+    padding: 21.5px 0;              
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link:hover{                   /*Usando 'a' funciona para todas as ancoras*/
+    cursor:zoom-in;
+    background-color: var(--cor-hover-botao);
+    padding: 10%;                                   /*Achei engraçado*/
+}
+
+.rodape{
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-destaques);
+    padding: 24px;                                   /*Pra dentro da borda (só pra lembrar)*/
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
+
+.foto{
+    height: 75vh;
+}
