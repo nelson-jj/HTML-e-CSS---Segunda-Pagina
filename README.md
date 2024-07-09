@@ -1,5 +1,5 @@
-# HTML-e-CSS---Segunda-Pagina
-HTML e CSS - Segunda Página Cabeçalho, Footer e Variaveis CSS (Continuação da Primeira Página)
+# HTML-e-CSS---Segunda-Parte
+HTML e CSS - Segunda Aula - Página Cabeçalho, Footer e Variaveis CSS (Continuação da Primeira Página)
 
   - Continuação da página anterior com flexbox
   - Alterados os botões
